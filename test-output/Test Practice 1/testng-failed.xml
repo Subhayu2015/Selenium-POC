@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Practice 1]">
+  <test name="Practice_1(failed)">
+    <classes>
+      <class name="TestCases.TestCase_InfiniteScroll">
+        <methods>
+          <include name="ScrollPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_InfiniteScroll -->
+    </classes>
+  </test> <!-- Practice_1(failed) -->
+</suite> <!-- Failed suite [Test Practice 1] -->

@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Practice_1">
+              <span class="suite-name border-failed">Test Practice 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Practice_1">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Practice_1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Practice_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Practice_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Practice_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Practice_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Practice_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,  13 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Practice_1" class="hide-methods failed suite-Test_Practice_1"> (hide)</a> <!-- hide-methods failed suite-Test_Practice_1 -->
+                      <a href="#" panel-name="suite-Test_Practice_1" class="show-methods failed suite-Test_Practice_1"> (show)</a> <!-- show-methods failed suite-Test_Practice_1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Practice_1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_AddDeleteElement" hash-for-method="AddThenDeleteButton">AddThenDeleteButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Practice_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Test_Practice_1" class="hide-methods skipped suite-Test_Practice_1"> (hide)</a> <!-- hide-methods skipped suite-Test_Practice_1 -->
+                      <a href="#" panel-name="suite-Test_Practice_1" class="show-methods skipped suite-Test_Practice_1"> (show)</a> <!-- show-methods skipped suite-Test_Practice_1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Test_Practice_1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_BrokenImages" hash-for-method="BrokenImageCheck">BrokenImageCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_BrokenImages" hash-for-method="BrokenImageCheck">BrokenImageCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_ContextMenu" hash-for-method="ContextMenuRightClick">ContextMenuRightClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_ContextMenu" hash-for-method="ContextMenuRightClick">ContextMenuRightClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_DragDrop" hash-for-method="DragAndDrop">DragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_DragDrop" hash-for-method="DragAndDrop">DragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_DragDrop" hash-for-method="DragAndDrop">DragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_DragDrop" hash-for-method="DragAndDrop">DragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_JavaScriptAlerts" hash-for-method="JsAlertClick">JsAlertClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_JavaScriptAlerts" hash-for-method="JsAlertClick">JsAlertClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_InfiniteScroll" hash-for-method="ScrollPage">ScrollPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_InfiniteScroll" hash-for-method="ScrollPage">ScrollPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Practice_1" title="TestCases.TestCase_InfiniteScroll" hash-for-method="ScrollPage">ScrollPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Test_Practice_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Practice_1" class="panel Test_Practice_1">
+          <div class="suite-Test_Practice_1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TestCase_AddDeleteElement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddThenDeleteButton">
+                  </a> <!-- AddThenDeleteButton -->
+                  <span class="method-name">AddThenDeleteButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398b9295e2e933d01633d5d72c49c4ae
+*** Element info: {Using=xpath, value=//*[@onclick=&apos;addElement()&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnAddElement(Dashboard.java:116)
+	at TestCases.TestCase_AddDeleteElement.AddThenDeleteButton(TestCase_AddDeleteElement.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Practice_1-class-failed -->
+          <div class="suite-Test_Practice_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.TestCase_DragDrop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragAndDrop">
+                  </a> <!-- DragAndDrop -->
+                  <span class="method-name">DragAndDrop</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Drag and Drop&apos;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398b9295e2e933d01633d5d72c49c4ae
+*** Element info: {Using=xpath, value=//a[text()=&apos;Drag and Drop&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnDragDrop(Dashboard.java:307)
+	at TestCases.TestCase_DragDrop.DragAndDrop(TestCase_DragDrop.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragAndDrop">
+                  </a> <!-- DragAndDrop -->
+                  <span class="method-name">DragAndDrop</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.close(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:206)
+	at TestCases.TestCase_DragDrop.CloseSession(TestCase_DragDrop.java:45)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragAndDrop">
+                  </a> <!-- DragAndDrop -->
+                  <span class="method-name">DragAndDrop</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=90.0.4430.212): You selected a context menu
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+*** Element info: {Using=xpath, value=//a[text()=&apos;Drag and Drop&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnDragDrop(Dashboard.java:307)
+	at TestCases.TestCase_DragDrop.DragAndDrop(TestCase_DragDrop.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragAndDrop">
+                  </a> <!-- DragAndDrop -->
+                  <span class="method-name">DragAndDrop</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Drag and Drop&apos;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1aca98a2e0607ee564887d6a6b39ff32
+*** Element info: {Using=xpath, value=//a[text()=&apos;Drag and Drop&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnDragDrop(Dashboard.java:307)
+	at TestCases.TestCase_DragDrop.DragAndDrop(TestCase_DragDrop.java:38)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Practice_1-class-skipped -->
+          <div class="suite-Test_Practice_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.TestCase_InfiniteScroll</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollPage">
+                  </a> <!-- ScrollPage -->
+                  <span class="method-name">ScrollPage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.close(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:206)
+	at TestCases.TestCase_InfiniteScroll.CloseSession(TestCase_InfiniteScroll.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollPage">
+                  </a> <!-- ScrollPage -->
+                  <span class="method-name">ScrollPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Infinite Scroll&apos;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+*** Element info: {Using=xpath, value=//a[text()=&apos;Infinite Scroll&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnInfiniteScroll(Dashboard.java:295)
+	at TestCases.TestCase_InfiniteScroll.ScrollPage(TestCase_InfiniteScroll.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollPage">
+                  </a> <!-- ScrollPage -->
+                  <span class="method-name">ScrollPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Infinite Scroll&apos;]&quot;}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a07d808465d916c1ff6f78ace7fd02ad
+*** Element info: {Using=xpath, value=//a[text()=&apos;Infinite Scroll&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnInfiniteScroll(Dashboard.java:295)
+	at TestCases.TestCase_InfiniteScroll.ScrollPage(TestCase_InfiniteScroll.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Practice_1-class-skipped -->
+          <div class="suite-Test_Practice_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.TestCase_JavaScriptAlerts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JsAlertClick">
+                  </a> <!-- JsAlertClick -->
+                  <span class="method-name">JsAlertClick</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a07d808465d916c1ff6f78ace7fd02ad
+*** Element info: {Using=xpath, value=//button[@onclick=&apos;jsAlert()&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at PageObjects.Dashboard.ClickOnJsAlert(Dashboard.java:194)
+	at TestCases.TestCase_JavaScriptAlerts.JsAlertClick(TestCase_JavaScriptAlerts.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="JsAlertClick">
+                  </a> <!-- JsAlertClick -->
+                  <span class="method-name">JsAlertClick</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.close(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:206)
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 46 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Practice_1-class-skipped -->
+          <div class="suite-Test_Practice_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.TestCase_BrokenImages</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrokenImageCheck">
+                  </a> <!-- BrokenImageCheck -->
+                  <span class="method-name">BrokenImageCheck</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.close(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:206)
+	at TestCases.TestCase_BrokenImages.CloseSession(TestCase_BrokenImages.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrokenImageCheck">
+                  </a> <!-- BrokenImageCheck -->
+                  <span class="method-name">BrokenImageCheck</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy27.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getAttribute(EventFiringWebDriver.java:447)
+	at PageObjects.Dashboard.FindBrokenImages(Dashboard.java:146)
+	at TestCases.TestCase_BrokenImages.BrokenImageCheck(TestCase_BrokenImages.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Practice_1-class-skipped -->
+          <div class="suite-Test_Practice_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.TestCase_ContextMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContextMenuRightClick">
+                  </a> <!-- ContextMenuRightClick -->
+                  <span class="method-name">ContextMenuRightClick</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=90.0.4430.212)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator.alert(EventFiringWebDriver.java:735)
+	at PageObjects.Dashboard.RightClickOnContextMenu(Dashboard.java:175)
+	at TestCases.TestCase_ContextMenu.ContextMenuRightClick(TestCase_ContextMenu.java:36)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContextMenuRightClick">
+                  </a> <!-- ContextMenuRightClick -->
+                  <span class="method-name">ContextMenuRightClick</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.close(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.close(EventFiringWebDriver.java:206)
+	at TestCases.TestCase_ContextMenu.CloseSession(TestCase_ContextMenu.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Practice_1-class-skipped -->
+        </div> <!-- panel Test_Practice_1 -->
+        <div panel-name="test-xml-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mac/Programming/Java/SeleniumPractice/src/test/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;6&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Practice 1&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test name=&quot;Practice_1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TestCase_AddDeleteElement&quot;/&gt;
+      &lt;class name=&quot;TestCases.TestCase_BrokenImages&quot;/&gt;
+      &lt;class name=&quot;TestCases.TestCase_ContextMenu&quot;/&gt;
+      &lt;class name=&quot;TestCases.TestCase_JavaScriptAlerts&quot;/&gt;
+      &lt;class name=&quot;TestCases.TestCase_InfiniteScroll&quot;/&gt;
+      &lt;class name=&quot;TestCases.TestCase_DragDrop&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Practice_1 --&gt;
+&lt;/suite&gt; &lt;!-- Test Practice 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Practice 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Practice_1 (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Practice 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Practice 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Practice_1');
+function tableData_Test_Practice_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ContextMenuRightClick')
+data.setCell(0, 2, 'TestCases.TestCase_ContextMenu')
+data.setCell(0, 3, 99954);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddThenDeleteButton')
+data.setCell(1, 2, 'TestCases.TestCase_AddDeleteElement')
+data.setCell(1, 3, 61801);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'JsAlertClick')
+data.setCell(2, 2, 'TestCases.TestCase_JavaScriptAlerts')
+data.setCell(2, 3, 48752);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ScrollPage')
+data.setCell(3, 2, 'TestCases.TestCase_InfiniteScroll')
+data.setCell(3, 3, 48273);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BrokenImageCheck')
+data.setCell(4, 2, 'TestCases.TestCase_BrokenImages')
+data.setCell(4, 3, 39840);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DragAndDrop')
+data.setCell(5, 2, 'TestCases.TestCase_DragDrop')
+data.setCell(5, 3, 38984);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ScrollPage')
+data.setCell(6, 2, 'TestCases.TestCase_InfiniteScroll')
+data.setCell(6, 3, 35216);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DragAndDrop')
+data.setCell(7, 2, 'TestCases.TestCase_DragDrop')
+data.setCell(7, 3, 7243);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DragAndDrop')
+data.setCell(8, 2, 'TestCases.TestCase_DragDrop')
+data.setCell(8, 3, 5120);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ScrollPage')
+data.setCell(9, 2, 'TestCases.TestCase_InfiniteScroll')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'DragAndDrop')
+data.setCell(10, 2, 'TestCases.TestCase_DragDrop')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ContextMenuRightClick')
+data.setCell(11, 2, 'TestCases.TestCase_ContextMenu')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'JsAlertClick')
+data.setCell(12, 2, 'TestCases.TestCase_JavaScriptAlerts')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'BrokenImageCheck')
+data.setCell(13, 2, 'TestCases.TestCase_BrokenImages')
+data.setCell(13, 3, 0);
+window.suiteTableData['Test_Practice_1']= { tableData: data, tableDiv: 'times-div-Test_Practice_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Test_Practice_1">
+              </div> <!-- times-div-Test_Practice_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Practice 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Practice_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_BrokenImages</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_DragDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_InfiniteScroll</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_AddDeleteElement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_JavaScriptAlerts</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_ContextMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_AddDeleteElement</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddThenDeleteButton</span>
+                <span class="method-start">12768 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_ContextMenu</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ContextMenuRightClick</span>
+                <span class="method-start">13056 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_BrokenImages</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrokenImageCheck</span>
+                <span class="method-start">13427 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_DragDrop</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DragAndDrop</span>
+                <span class="method-start">13848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_JavaScriptAlerts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JsAlertClick</span>
+                <span class="method-start">14200 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_InfiniteScroll</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ScrollPage</span>
+                <span class="method-start">14580 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_DragDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">52845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52958 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_BrokenImages</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">53269 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_InfiniteScroll</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">62855 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_JavaScriptAlerts</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">62954 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_InfiniteScroll</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">62964 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_DragDrop</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DragAndDrop</span>
+                <span class="method-start">66890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">74137 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_AddDeleteElement</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">74574 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_DragDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74581 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_InfiniteScroll</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ScrollPage</span>
+                <span class="method-start">77804 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_DragDrop</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DragAndDrop</span>
+                <span class="method-start">87704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">92826 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_ContextMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">113013 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase_InfiniteScroll</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CloseSession</span>
+                <span class="method-start">113022 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

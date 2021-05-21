@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Practice 1" thread-count="6" parallel="methods">
+
+	<!--<listeners>      -->
+	<!--	<listener class-name="com.crm.qa.utils.JyperionListner" />  -->
+	<!-- </listeners>  -->
+
+
+	<test name="Practice_1">
+		<classes>
+			<class name="TestCases.TestCase_AddDeleteElement"></class>
+			<class name="TestCases.TestCase_BrokenImages"></class>
+			<class name="TestCases.TestCase_ContextMenu"></class>
+			<class name="TestCases.TestCase_JavaScriptAlerts"></class>
+			<class name="TestCases.TestCase_InfiniteScroll"></class>
+			<class name="TestCases.TestCase_DragDrop"></class>
+		</classes>
+	</test>
+</suite>
+
+

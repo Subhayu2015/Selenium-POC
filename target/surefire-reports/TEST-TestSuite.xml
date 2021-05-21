@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="199.266" tests="25" errors="0" skipped="18" failures="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/mac/Programming/Java/SeleniumPractice"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mac/Programming/Java/SeleniumPractice"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6g/l379qwwn7ts76nfc8yt_2_9c0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/mac/Programming/softwares/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/mac/Programming/softwares/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="library.jansi.path" value="/Users/mac/Programming/softwares/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mac"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Subhayu_mac"/>
+    <property name="java.class.path" value="/Users/mac/Programming/softwares/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="/Users/mac/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/mac/Programming/softwares/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="DragAndDrop" classname="TestCases.TestCase_DragDrop" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Drag and Drop&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1aca98a2e0607ee564887d6a6b39ff32&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Drag and Drop&apos;]}"/>
+    <system-out><![CDATA[Before navigating to: 'http://the-internet.herokuapp.com'
+Before navigating to: 'http://the-internet.herokuapp.com'
+Before navigating to: 'http://the-internet.herokuapp.com'
+Navigated to:'http://the-internet.herokuapp.com'
+Before navigating to: 'http://the-internet.herokuapp.com'
+Navigated to:'http://the-internet.herokuapp.com'
+Navigated to:'http://the-internet.herokuapp.com'
+Before navigating to: 'http://the-internet.herokuapp.com'
+Navigated to:'http://the-internet.herokuapp.com'
+Before navigating to: 'http://the-internet.herokuapp.com'
+Navigated to:'http://the-internet.herokuapp.com'
+Navigated to:'http://the-internet.herokuapp.com'
+Trying to find Element By : By.xpath: //a[text()='Broken Images']
+Found Element By : By.xpath: //a[text()='Broken Images']
+Trying to click on: [[ChromeDriver: chrome on MAC (1aca98a2e0607ee564887d6a6b39ff32)] -> xpath: //a[text()='Broken Images']]
+Clicked on: [[ChromeDriver: chrome on MAC (1aca98a2e0607ee564887d6a6b39ff32)] -> xpath: //a[text()='Broken Images']]
+Trying to find Element By : By.tagName: img
+Found Element By : By.tagName: img
+Trying to find Element By : By.xpath: //a[text()='Drag and Drop']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Drag and Drop']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1aca98a2e0607ee564887d6a6b39ff32
+*** Element info: {Using=xpath, value=//a[text()='Drag and Drop']}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 22722
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 26558
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Starting SCtarting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 9105
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29119
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+hromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 27870
+Only local connections are allowed.
+Please sStarting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 23547
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ee https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2021 1:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 21, 2021 1:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 21, 2021 1:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 21, 2021 1:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 21, 2021 1:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 21, 2021 1:21:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+  </testcase>
+  <testcase name="DragAndDrop" classname="TestCases.TestCase_DragDrop" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Drag and Drop&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 398b9295e2e933d01633d5d72c49c4ae&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Drag and Drop&apos;]}"/>
+    <system-out><![CDATA[Before navigating to: 'http://the-internet.herokuapp.com'
+Trying to find Element By : By.xpath: //a[text()='Add/Remove Elements']
+Navigated to:'http://the-internet.herokuapp.com'
+Found Element By : By.xpath: //a[text()='Add/Remove Elements']
+Trying to click on: [[ChromeDriver: chrome on MAC (398b9295e2e933d01633d5d72c49c4ae)] -> xpath: //a[text()='Add/Remove Elements']]
+Trying to find Element By : By.xpath: //a[text()='Drag and Drop']
+Clicked on: [[ChromeDriver: chrome on MAC (398b9295e2e933d01633d5d72c49c4ae)] -> xpath: //a[text()='Add/Remove Elements']]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Drag and Drop']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398b9295e2e933d01633d5d72c49c4ae
+*** Element info: {Using=xpath, value=//a[text()='Drag and Drop']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29840
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2021 1:22:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DragAndDrop" classname="TestCases.TestCase_DragDrop" time="0">
+    <skipped message="unexpected alert open: {Alert text : You selected a context menu}&#10;  (Session info: chrome=90.0.4430.212): You selected a context menu&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Drag and Drop&apos;]}"/>
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[text()='Context Menu']
+Found Element By : By.xpath: //a[text()='Context Menu']
+Trying to click on: [[ChromeDriver: chrome on MAC (6599ef1fa49942e94c7c4c874a65442a)] -> xpath: //a[text()='Context Menu']]
+Clicked on: [[ChromeDriver: chrome on MAC (6599ef1fa49942e94c7c4c874a65442a)] -> xpath: //a[text()='Context Menu']]
+Trying to find Element By : By.xpath: //div[@id='hot-spot']
+Found Element By : By.xpath: //div[@id='hot-spot']
+Trying to find Element By : By.xpath: //a[text()='Drag and Drop']
+Exception occured: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You selected a context menu}
+  (Session info: chrome=90.0.4430.212): You selected a context menu
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+*** Element info: {Using=xpath, value=//a[text()='Drag and Drop']}
+]]></system-out>
+  </testcase>
+  <testcase name="DragAndDrop" classname="TestCases.TestCase_DragDrop" time="0">
+    <skipped message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a"/>
+  </testcase>
+  <testcase name="BrokenImageCheck" classname="TestCases.TestCase_BrokenImages" time="0">
+    <skipped message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+    <system-out><![CDATA[......200
+Exception occured: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24851
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="BrokenImageCheck" classname="TestCases.TestCase_BrokenImages" time="0">
+    <skipped message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: EventFiringWebDriver"/>
+  </testcase>
+  <testcase name="CloseSession" classname="TestCases.TestCase_BrokenImages" time="0.482">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: EventFiringWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+	at TestCases.TestCase_BrokenImages.CloseSession(TestCase_BrokenImages.java:40)
+</failure>
+    <system-out><![CDATA[Exception occured: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="ScrollPage" classname="TestCases.TestCase_InfiniteScroll" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Infinite Scroll&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a07d808465d916c1ff6f78ace7fd02ad&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Infinite Scroll&apos;]}"/>
+    <system-out><![CDATA[Before navigating to: 'http://the-internet.herokuapp.com'
+Trying to find Element By : By.xpath: //a[text()='JavaScript Alerts']
+Navigated to:'http://the-internet.herokuapp.com'
+Found Element By : By.xpath: //a[text()='JavaScript Alerts']
+Trying to click on: [[ChromeDriver: chrome on MAC (a07d808465d916c1ff6f78ace7fd02ad)] -> xpath: //a[text()='JavaScript Alerts']]
+Clicked on: [[ChromeDriver: chrome on MAC (a07d808465d916c1ff6f78ace7fd02ad)] -> xpath: //a[text()='JavaScript Alerts']]
+Trying to find Element By : By.xpath: //a[text()='Infinite Scroll']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Infinite Scroll']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a07d808465d916c1ff6f78ace7fd02ad
+*** Element info: {Using=xpath, value=//a[text()='Infinite Scroll']}
+]]></system-out>
+    <system-err><![CDATA[May 21, 2021 1:22:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ScrollPage" classname="TestCases.TestCase_InfiniteScroll" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Infinite Scroll&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Infinite Scroll&apos;]}"/>
+    <system-out><![CDATA[Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Infinite Scroll']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+*** Element info: {Using=xpath, value=//a[text()='Infinite Scroll']}
+]]></system-out>
+  </testcase>
+  <testcase name="ScrollPage" classname="TestCases.TestCase_InfiniteScroll" time="0">
+    <skipped message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a"/>
+  </testcase>
+  <testcase name="JsAlertClick" classname="TestCases.TestCase_JavaScriptAlerts" time="0">
+    <skipped message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a07d808465d916c1ff6f78ace7fd02ad&#10;*** Element info: {Using=xpath, value=//button[@onclick=&apos;jsAlert()&apos;]}"/>
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@onclick='jsAlert()']
+Exception occured: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a07d808465d916c1ff6f78ace7fd02ad
+*** Element info: {Using=xpath, value=//button[@onclick='jsAlert()']}
+]]></system-out>
+  </testcase>
+  <testcase name="JsAlertClick" classname="TestCases.TestCase_JavaScriptAlerts" time="0">
+    <skipped message="java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: EventFiringWebDriver"/>
+  </testcase>
+  <testcase name="CloseSession" classname="TestCases.TestCase_JavaScriptAlerts" time="0.156">
+    <failure message="java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: EventFiringWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+</failure>
+    <system-out><![CDATA[Exception occured: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="AddThenDeleteButton" classname="TestCases.TestCase_AddDeleteElement" time="1.761">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 398b9295e2e933d01633d5d72c49c4ae&#10;*** Element info: {Using=xpath, value=//*[@onclick=&apos;addElement()&apos;]}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398b9295e2e933d01633d5d72c49c4ae
+*** Element info: {Using=xpath, value=//*[@onclick='addElement()']}
+	at TestCases.TestCase_AddDeleteElement.AddThenDeleteButton(TestCase_AddDeleteElement.java:36)
+</failure>
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //*[@onclick='addElement()']
+Exception occured: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398b9295e2e933d01633d5d72c49c4ae
+*** Element info: {Using=xpath, value=//*[@onclick='addElement()']}
+]]></system-out>
+  </testcase>
+  <testcase name="CloseSession" classname="TestCases.TestCase_AddDeleteElement" time="1.765">
+    <failure message="java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29840&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: EventFiringWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29840
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+	at TestCases.TestCase_AddDeleteElement.CloseSession(TestCase_AddDeleteElement.java:41)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29840
+	at TestCases.TestCase_AddDeleteElement.CloseSession(TestCase_AddDeleteElement.java:41)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at TestCases.TestCase_AddDeleteElement.CloseSession(TestCase_AddDeleteElement.java:41)
+</failure>
+    <system-out><![CDATA[Exception occured: org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29840
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="TestCases.TestCase_JavaScriptAlerts" time="0">
+    <skipped/>
+    <system-out><![CDATA[Before navigating to: 'http://the-internet.herokuapp.com'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24568
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2021 1:23:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="TestCases.TestCase_BrokenImages" time="0">
+    <skipped/>
+    <system-out><![CDATA[Navigated to:'http://the-internet.herokuapp.com'
+]]></system-out>
+  </testcase>
+  <testcase name="ContextMenuRightClick" classname="TestCases.TestCase_ContextMenu" time="0">
+    <skipped message="no such alert&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a"/>
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[text()='Infinite Scroll']
+Exception occured: org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+]]></system-out>
+  </testcase>
+  <testcase name="ContextMenuRightClick" classname="TestCases.TestCase_ContextMenu" time="0">
+    <skipped message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a"/>
+  </testcase>
+  <testcase name="CloseSession" classname="TestCases.TestCase_DragDrop" time="5.196">
+    <failure message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at TestCases.TestCase_DragDrop.CloseSession(TestCase_DragDrop.java:45)
+</failure>
+  </testcase>
+  <testcase name="setup" classname="TestCases.TestCase_DragDrop" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="CloseSession" classname="TestCases.TestCase_ContextMenu" time="25.248">
+    <failure message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at TestCases.TestCase_ContextMenu.CloseSession(TestCase_ContextMenu.java:42)
+</failure>
+    <system-out><![CDATA[Exception occured: org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="TestCases.TestCase_ContextMenu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="CloseSession" classname="TestCases.TestCase_InfiniteScroll" time="45.252">
+    <failure message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Macs-MacBook-Pro.local&apos;, ip: &apos;2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6599ef1fa49942e94c7c4c874a65442a" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at TestCases.TestCase_InfiniteScroll.CloseSession(TestCase_InfiniteScroll.java:48)
+</failure>
+    <system-out><![CDATA[Exception occured: org.openqa.selenium.WebDriverException: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="TestCases.TestCase_InfiniteScroll" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

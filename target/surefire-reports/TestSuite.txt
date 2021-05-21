@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 7, Errors: 0, Skipped: 18, Time elapsed: 199.266 s <<< FAILURE! - in TestSuite
+CloseSession(TestCases.TestCase_BrokenImages)  Time elapsed: 0.482 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+	at TestCases.TestCase_BrokenImages.CloseSession(TestCase_BrokenImages.java:40)
+
+CloseSession(TestCases.TestCase_JavaScriptAlerts)  Time elapsed: 0.156 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:24851
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at TestCases.TestCase_JavaScriptAlerts.CloseSession(TestCase_JavaScriptAlerts.java:43)
+
+AddThenDeleteButton(TestCases.TestCase_AddDeleteElement)  Time elapsed: 1.761 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398b9295e2e933d01633d5d72c49c4ae
+*** Element info: {Using=xpath, value=//*[@onclick='addElement()']}
+	at TestCases.TestCase_AddDeleteElement.AddThenDeleteButton(TestCase_AddDeleteElement.java:36)
+
+CloseSession(TestCases.TestCase_AddDeleteElement)  Time elapsed: 1.765 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29840
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: driver.version: EventFiringWebDriver
+	at TestCases.TestCase_AddDeleteElement.CloseSession(TestCase_AddDeleteElement.java:41)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29840
+	at TestCases.TestCase_AddDeleteElement.CloseSession(TestCase_AddDeleteElement.java:41)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at TestCases.TestCase_AddDeleteElement.CloseSession(TestCase_AddDeleteElement.java:41)
+
+CloseSession(TestCases.TestCase_DragDrop)  Time elapsed: 5.196 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at TestCases.TestCase_DragDrop.CloseSession(TestCase_DragDrop.java:45)
+
+CloseSession(TestCases.TestCase_ContextMenu)  Time elapsed: 25.248 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at TestCases.TestCase_ContextMenu.CloseSession(TestCase_ContextMenu.java:42)
+
+CloseSession(TestCases.TestCase_InfiniteScroll)  Time elapsed: 45.252 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Macs-MacBook-Pro.local', ip: '2402:3a80:a9f:2e78:49d3:8b1f:26c6:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/6g/l379qwwn7ts...}, goog:chromeOptions: {debuggerAddress: localhost:52600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6599ef1fa49942e94c7c4c874a65442a
+	at TestCases.TestCase_InfiniteScroll.CloseSession(TestCase_InfiniteScroll.java:48)
+

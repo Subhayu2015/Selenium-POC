@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Practice 1]" parallel="methods">
+  <test name="Practice_1(failed)" parallel="methods">
+    <classes>
+      <class name="TestCases.TestCase_DragDrop">
+        <methods>
+          <include name="setup"/>
+          <include name="DragAndDrop"/>
+          <include name="CloseSession"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_DragDrop -->
+      <class name="TestCases.TestCase_InfiniteScroll">
+        <methods>
+          <include name="ScrollPage"/>
+          <include name="CloseSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_InfiniteScroll -->
+      <class name="TestCases.TestCase_JavaScriptAlerts">
+        <methods>
+          <include name="JsAlertClick"/>
+          <include name="setup"/>
+          <include name="CloseSession"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_JavaScriptAlerts -->
+      <class name="TestCases.TestCase_BrokenImages">
+        <methods>
+          <include name="BrokenImageCheck"/>
+          <include name="CloseSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_BrokenImages -->
+      <class name="TestCases.TestCase_AddDeleteElement">
+        <methods>
+          <include name="AddThenDeleteButton"/>
+          <include name="setup"/>
+          <include name="CloseSession"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_AddDeleteElement -->
+      <class name="TestCases.TestCase_ContextMenu">
+        <methods>
+          <include name="CloseSession"/>
+          <include name="ContextMenuRightClick"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.TestCase_ContextMenu -->
+    </classes>
+  </test> <!-- Practice_1(failed) -->
+</suite> <!-- Failed suite [Test Practice 1] -->
