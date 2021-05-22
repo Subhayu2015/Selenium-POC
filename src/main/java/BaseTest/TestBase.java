@@ -29,7 +29,7 @@ public class TestBase {
 		js = (JavascriptExecutor) driver;
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();	
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
 		driver.get("http://the-internet.herokuapp.com");
 		
 	}
