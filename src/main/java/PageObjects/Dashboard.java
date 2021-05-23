@@ -6,6 +6,7 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.http.HttpResponse;
@@ -49,7 +50,14 @@ public class Dashboard extends TestBase{
 	@FindBy(xpath="//a[text()='Drag and Drop']")
 	private WebElement Drag_Drop;
 	
-
+	//######################    Frames     ###################
+	@FindBy(xpath="//*[@id=\"content\"]/ul/li[22]/a")
+	private WebElement FramesPageTitle;
+	
+	@FindBy(xpath="//*[@id=\"content\"]/div/ul/li[1]/a")
+	private WebElement NestedFrameLink;
+	
+	
 	
 	//###################### AddRemove Elements ########################
 	@FindBy(xpath="//h3[text()='Add/Remove Elements']")
@@ -108,6 +116,37 @@ public class Dashboard extends TestBase{
 		PageFactory.initElements(driver, this);
 		
 	}
+	//########################  Frames Methods    #####################
+	public void ClickFrameLink() {
+		
+		FramesPageTitle.click();
+		try {
+			Thread.sleep(2000);
+		}  catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+public void NestedFramesButton() {
+		
+		NestedFrameLink.click();
+		try {
+			Thread.sleep(2000);
+		}  catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+public void FetchFrameContent() {
+	driver.switchTo().frame("frame-bottom");
+	String frametext= driver.findElement(By.tagName("body")).getText();
+	System.out.println(frametext);
+	
+}
+	
+	
 	
 	//###################### AddRemove Elements ########################
 	
