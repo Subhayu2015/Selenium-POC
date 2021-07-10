@@ -10,12 +10,15 @@ import Utils.WebEventListener;
 
 import PageObjects.AddRemoveElements;
 import PageObjects.Dashboard;
+import PageObjects.MuviContent;
 
-public class TestBase {
+
+public abstract class TestBase {
 	static protected WebDriver driver;
 	static protected JavascriptExecutor js;
 	protected Dashboard dashboardPage;
 	protected AddRemoveElements addRemoveElement;
+	protected MuviContent muviContent;
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	
@@ -30,12 +33,14 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();	
 		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
-		driver.get("http://the-internet.herokuapp.com");
+		//driver.get("http://the-internet.herokuapp.com");
+		driver.get("https://www.muvi.com");
 		
 	}
 	public void initializePOM(){
-		dashboardPage= new Dashboard();
-		addRemoveElement= new AddRemoveElements();
+		//dashboardPage= new Dashboard();
+		//addRemoveElement= new AddRemoveElements();
+		muviContent=new MuviContent();
 	}
 
 }
